@@ -1,0 +1,27 @@
+[global_config]
+  enabled_plugins = ,
+  title_font = Hack 12
+  title_transmit_bg_color = "#460002"
+  title_use_system_font = False
+[keybindings]
+[layouts]
+  [[default]]
+    [[[child1]]]
+      parent = window0
+      type = Terminal
+    [[[window0]]]
+      parent = ""
+      type = Window
+[plugins]
+[profiles]
+  [[default]]
+    background_color = "#1b2b34"
+    background_darkness = 0.89
+    background_image = None
+    background_type = transparent
+    cursor_blink = False
+    cursor_color = "#c0c5ce"
+    font = Hack 10
+    foreground_color = "#ffffff"
+    palette = "#1b2b34:#ec5f67:#99c794:#fac863:#6699cc:#c594c5:#5fb3b3:#c0c5ce:#65737e:#ec5f67:#99c794:#fac863:#6699cc:#c594c5:#5fb3b3:#d8dee9"
+    use_system_font = False
